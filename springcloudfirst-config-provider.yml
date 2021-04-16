@@ -17,7 +17,7 @@ spring:
 eureka: 
   client: #客户端注册进eureka服务列表内
     service-url: 
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka5002.com:5002/eureka/
   instance:
     instance-id: config-provider-dev
     prefer-ip-address: true
