@@ -1,18 +1,18 @@
 spring:
   profiles:
-   active:
-   - dev
+    active:
+    - dev
 ---
 server:
   port: 5001
 spring:
   profiles: dev  #开发环境
   application:
-   name: springcloudfirst-config-read-dev
+    name: springcloudfirst-config-read-dev
 ---
 server:
   port: 5002
 spring:
   profiles: test  #测试环境
   application:
-   name: springcloudfirst-config-read-test
+    name: springcloudfirst-config-read-test
